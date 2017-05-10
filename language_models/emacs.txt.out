@@ -1,0 +1,17 @@
+emacs imks and its derivatives are a family of text editors that are characterized by their extensibility
+ the manual for the most widely used variant gnu emacs describes it as the extensible customizable selfdocumenting realtime display editor
+ development of the first emacs began in the mids and continues actively as of 
+emacs has over  builtin commands and allows the user to combine these commands into macros to automate work
+ emacs lisp provides a deep extension capability allowing users and developers to write new commands using a dialect of the lisp programming language
+ extensions have been written to manage email files outlines and rss feeds
+the original emacs was written in  by david a
+ moon and guy l
+ steele jr
+ as a set of editor macros for the teco editor
+ it was inspired by the ideas of the tecomacro editors tecmac and tmacs
+the most popular and most ported version of emacs is gnu emacs which was created by richard stallman for the gnu project
+ xemacs is a variant that branched from gnu emacs in 
+ both gnu emacs and xemacs use emacs lisp and are for the most part compatible with each other
+emacs is along with vi vim one of the two main contenders in the traditional editor wars of unix culture
+ both are among the oldest application programs still in use
+
