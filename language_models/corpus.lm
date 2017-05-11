@@ -1,265 +1,275 @@
-created	1
-created by	1
-<s>	15
-<s> emacs	4
-<s> both	2
-<s> the	3
-<s> have	1
-<s> it	1
-<s> as	1
-<s> development	1
-<s> moon	1
-<s> is	1
-these	1
-these commands	1
-richard	1
-richard for	1
-into	1
-into to	1
-</s>	15
-project	1
-project </s>	1
-work	1
-work </s>	1
-branched	1
-branched from	1
-provides	1
-provides a	1
-emacs	12
-emacs which	1
-emacs provides	1
-emacs and	3
-emacs describes	1
-emacs was	1
-emacs began	1
-emacs has	1
-emacs in	1
-emacs is	2
-from	1
-from emacs	1
-and	10
-and </s>	2
-and its	1
-and use	1
-and are	1
-and most	1
-and as	1
-and guy	1
-and allows	1
-and to	1
-deep	1
-deep extension	1
-both	2
-both emacs	1
-both are	1
-use	2
-use emacs	1
-use </s>	1
-its	1
-its are	1
-extension	1
-extension capability	1
-are	4
-are a	1
-are by	1
-are for	1
-are among	1
-capability	1
-capability allowing	1
-part	1
-part compatible	1
-compatible	1
-compatible with	1
-a	6
-a </s>	1
-a family	1
-a deep	1
-a dialect	1
-a that	1
-a set	1
-allowing	1
-allowing users	1
-family	1
-family of	1
-users	1
-users and	1
-with	2
-with each	1
-with one	1
-of	9
-of </s>	1
-of emacs	1
-of text	1
-of the	4
-of unix	1
-of editor	1
-write	1
-write new	1
-each	1
-each other	1
-new	1
-new commands	1
-text	1
-text that	1
-other	1
-other </s>	1
-that	2
-that are	1
-that branched	1
-using	1
-using a	1
-along	1
-along with	1
-dialect	1
-dialect of	1
-by	4
-by their	1
-by david	1
-by the	1
-by richard	1
-one	1
-one of	1
-their	1
-their </s>	1
-programming	1
-programming language	1
-two	1
-two main	1
-main	1
-main in	1
-the	17
-the project	1
-the and	2
-the programming	1
-the two	1
-the manual	1
-the most	3
-the traditional	1
-the oldest	1
-the original	1
-the display	1
-the editor	1
-the first	1
-the ideas	1
-the user	1
-language	1
-language </s>	1
-manual	1
-manual for	1
-have	1
-have been	1
-traditional	1
-traditional editor	1
-unix	1
-unix culture	1
-for	4
-for the	4
-been	1
-been written	1
-most	4
-most widely	1
-most popular	1
-most version	1
-most part	1
-written	2
-written to	1
-written in	1
-culture	1
-culture </s>	1
-among	1
-among the	1
-widely	1
-widely used	1
-manage	1
-manage email	1
-used	1
-used emacs	1
-email	1
-email files	1
-oldest	1
-oldest application	1
-describes	1
-describes it	1
-files	1
-files outlines	1
-application	1
-application programs	1
-outlines	1
-outlines and	1
-it	2
-it as	1
-it was	1
-programs	1
-programs still	1
-as	3
-as the	1
-as of	1
-as a	1
-original	1
-original emacs	1
-still	1
-still in	1
-was	3
-was written	1
-was inspired	1
-was created	1
-display	1
-display editor	1
-editor	4
-editor </s>	2
-editor for	1
-editor of	1
-david	1
-david a	1
-development	1
-development of	1
-moon	1
-moon and	1
-first	1
-first emacs	1
-guy	1
-guy l	1
-began	1
-began in	1
-l	1
-l </s>	1
-in	5
-in the	2
-in by	1
-in </s>	1
-in use	1
-set	1
-set of	1
-has	1
-has over	1
-inspired	1
-inspired by	1
-ideas	1
-ideas of	1
-over	1
-over commands	1
-commands	3
-commands and	1
-commands into	1
-commands using	1
-popular	1
-popular and	1
-version	1
-version of	1
-allows	1
-allows the	1
-user	1
-user to	1
-is	3
-is emacs	1
-is a	1
-is along	1
-which	1
-which was	1
-to	4
-to combine	1
-to work	1
-to write	1
-to manage	1
-combine	1
-combine these	1
+
+\data\
+ngram 1=94
+ngram 2=171
+
+\1-grams:
+-1.10721	</s>
+-99	<s>	-1.335831
+-1.50515	a	-0.7947931
+-2.283301	allowing	-0.2987621
+-2.283301	allows	-0.2607668
+-2.283301	along	-0.2964824
+-2.283301	among	-0.2607668
+-1.283301	and	-1.179549
+-2.283301	application	-0.2987621
+-1.681241	are	-0.663642
+-1.80618	as	-0.5228786
+-2.283301	been	-0.2964824
+-2.283301	began	-0.2895704
+-1.982271	both	-0.4393327
+-2.283301	branched	-0.2987621
+-1.681241	by	-0.6511972
+-2.283301	capability	-0.2987621
+-2.283301	combine	-0.2987621
+-1.80618	commands	-0.5740312
+-2.283301	compatible	-0.2964824
+-2.283301	created	-0.2918866
+-2.283301	culture	-0.265702
+-2.283301	david	-0.2872417
+-2.283301	deep	-0.2987621
+-2.283301	describes	-0.2964824
+-2.283301	development	-0.2801799
+-2.283301	dialect	-0.2801799
+-2.283301	display	-0.2918866
+-2.283301	each	-0.2987621
+-1.681241	editor	-0.8005528
+-1.20412	emacs	-1.282939
+-2.283301	email	-0.2987621
+-2.283301	extension	-0.2987621
+-2.283301	family	-0.2801799
+-2.283301	files	-0.2987621
+-2.283301	first	-0.2730013
+-1.681241	for	-0.6587068
+-2.283301	from	-0.2730013
+-2.283301	guy	-0.2987621
+-2.283301	has	-0.2987621
+-2.283301	have	-0.2987621
+-2.283301	ideas	-0.2801799
+-1.584331	in	-0.8701397
+-2.283301	inspired	-0.2918866
+-2.283301	into	-0.2918866
+-1.80618	is	-0.5568048
+-1.982271	it	-0.463333
+-2.283301	its	-0.2918866
+-2.283301	l	-0.265702
+-2.283301	language	-0.265702
+-2.283301	main	-0.2895704
+-2.283301	manage	-0.2987621
+-2.283301	manual	-0.2918866
+-2.283301	moon	-0.2778001
+-1.681241	most	-0.6898266
+-2.283301	new	-0.2941906
+-1.329059	of	-0.8689871
+-2.283301	oldest	-0.2987621
+-2.283301	one	-0.2801799
+-2.283301	original	-0.2730013
+-2.283301	other	-0.265702
+-2.283301	outlines	-0.2778001
+-2.283301	over	-0.2941906
+-2.283301	part	-0.2987621
+-2.283301	popular	-0.2778001
+-2.283301	programming	-0.2987621
+-2.283301	programs	-0.2987621
+-2.283301	project	-0.265702
+-2.283301	provides	-0.2872417
+-2.283301	richard	-0.2918866
+-2.283301	set	-0.2801799
+-2.283301	still	-0.2895704
+-2.283301	text	-0.2964824
+-1.982271	that	-0.4656616
+-1.052852	the	-1.426285
+-2.283301	their	-0.265702
+-2.283301	these	-0.2941906
+-1.681241	to	-0.6898266
+-2.283301	traditional	-0.2918866
+-2.283301	two	-0.2987621
+-2.283301	unix	-0.2987621
+-1.982271	use	-0.4113039
+-2.283301	used	-0.2730013
+-2.283301	user	-0.2918866
+-2.283301	users	-0.2778001
+-2.283301	using	-0.2872417
+-2.283301	version	-0.2801799
+-1.80618	was	-0.5929165
+-2.283301	which	-0.2941906
+-2.283301	widely	-0.2987621
+-1.982271	with	-0.4725736
+-2.283301	work	-0.265702
+-2.283301	write	-0.2987621
+-1.982271	written	-0.4562711
+
+\2-grams:
+-1.176091	<s> as
+-1.011981	<s> both
+-1.176091	<s> development
+-0.5740313	<s> emacs
+-1.176091	<s> have
+-1.176091	<s> is
+-1.176091	<s> it
+-1.176091	<s> moon
+-0.69897	<s> the
+-0.845098	a </s>
+-0.845098	a deep
+-0.845098	a dialect
+-0.845098	a family
+-0.845098	a set
+-0.845098	a that
+-0.30103	allowing users
+-0.30103	allows the
+-0.30103	along with
+-0.30103	among the
+-0.8358901	and </s>
+-1	and allows
+-1	and are
+-1	and as
+-1	and guy
+-1	and its
+-1	and most
+-1	and to
+-1	and use
+-0.30103	application programs
+-0.69897	are a
+-0.69897	are among
+-0.69897	are by
+-0.69897	are for
+-0.60206	as a
+-0.60206	as of
+-0.60206	as the
+-0.30103	been written
+-0.30103	began in
+-0.4771213	both are
+-0.4771213	both emacs
+-0.30103	branched from
+-0.69897	by david
+-0.69897	by richard
+-0.69897	by the
+-0.69897	by their
+-0.30103	capability allowing
+-0.30103	combine these
+-0.60206	commands and
+-0.60206	commands into
+-0.60206	commands using
+-0.30103	compatible with
+-0.30103	created by
+-0.30103	culture </s>
+-0.30103	david a
+-0.30103	deep extension
+-0.30103	describes it
+-0.30103	development of
+-0.30103	dialect of
+-0.30103	display editor
+-0.30103	each other
+-0.43795	editor </s>
+-0.60206	editor for
+-0.60206	editor of
+-0.60206	emacs and
+-1.079181	emacs began
+-1.079181	emacs describes
+-1.079181	emacs has
+-1.079181	emacs in
+-0.9150713	emacs is
+-1.079181	emacs provides
+-1.079181	emacs was
+-1.079181	emacs which
+-0.30103	email files
+-0.30103	extension capability
+-0.30103	family of
+-0.30103	files outlines
+-0.30103	first emacs
+-0.09691001	for the
+-0.30103	from emacs
+-0.30103	guy l
+-0.30103	has over
+-0.30103	have been
+-0.30103	ideas of
+-0.69897	in </s>
+-0.69897	in by
+-0.53486	in the
+-0.69897	in use
+-0.30103	inspired by
+-0.30103	into to
+-0.60206	is a
+-0.60206	is along
+-0.60206	is emacs
+-0.4771213	it as
+-0.4771213	it was
+-0.30103	its are
+-0.30103	l </s>
+-0.30103	language </s>
+-0.30103	main in
+-0.30103	manage email
+-0.30103	manual for
+-0.30103	moon and
+-0.69897	most part
+-0.69897	most popular
+-0.69897	most version
+-0.69897	most widely
+-0.30103	new commands
+-1	of </s>
+-1	of editor
+-1	of emacs
+-1	of text
+-0.39794	of the
+-1	of unix
+-0.30103	oldest application
+-0.30103	one of
+-0.30103	original emacs
+-0.30103	other </s>
+-0.30103	outlines and
+-0.30103	over commands
+-0.30103	part compatible
+-0.30103	popular and
+-0.30103	programming language
+-0.30103	programs still
+-0.30103	project </s>
+-0.30103	provides a
+-0.30103	richard for
+-0.30103	set of
+-0.30103	still in
+-0.30103	text that
+-0.4771213	that are
+-0.4771213	that branched
+-1.066339	the and
+-1.230449	the display
+-1.230449	the editor
+-1.230449	the first
+-1.230449	the ideas
+-1.230449	the manual
+-0.7533277	the most
+-1.230449	the oldest
+-1.230449	the original
+-1.230449	the programming
+-1.230449	the project
+-1.230449	the traditional
+-1.230449	the two
+-1.230449	the user
+-0.30103	their </s>
+-0.30103	these commands
+-0.69897	to combine
+-0.69897	to manage
+-0.69897	to work
+-0.69897	to write
+-0.30103	traditional editor
+-0.30103	two main
+-0.30103	unix culture
+-0.4771213	use </s>
+-0.4771213	use emacs
+-0.30103	used emacs
+-0.30103	user to
+-0.30103	users and
+-0.30103	using a
+-0.30103	version of
+-0.60206	was created
+-0.60206	was inspired
+-0.60206	was written
+-0.30103	which was
+-0.30103	widely used
+-0.4771213	with each
+-0.4771213	with one
+-0.30103	work </s>
+-0.30103	write new
+-0.4771213	written in
+-0.4771213	written to
+
+\end\
