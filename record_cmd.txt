@@ -1,0 +1,2 @@
+arecord -d 02 -f cd -t wav -c 1 -r 16000 emacs.wav
+./julius -input file -C Sample.jconf -plugindir plugin
