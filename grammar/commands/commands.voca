@@ -5,16 +5,42 @@
 </s>		sil
 
 % COMMAND
+top		t aa p
+matrix		m ey t r ih k s
+
+% OPEN
 open		ow p eh n
-top		t ow p
-obrela		ah b r eh l ah
 
-% PARAM
-page		p ey sh
+% OPARAM
+newspaper	n uw z p ey p er
 emacs		iy m ah k s
+terminal	t er m ah n ah l
 
-% DICTAT
-dictat		d iy k t ah t
+% FILE
+file		f ay l
+
+% SYSTEM
+system		s ih s t ah m
+
+% FACTOR
+factor		f ae k t er
+
+% DIRMANAGE
+make		m ey k
+remove		r iy m uw v
+
+% DIR
+directory	d er eh k t er iy
+
+% VOLUMEOPTS
+raise		r ey z
+lower		l ow er
+
+% VOLUME
+volume		v aa l y uw m
+
+% DICTATE
+dictate		d ih k t ey t
 
 % FINAL
 final		f ay n ah l
@@ -30,5 +56,6 @@ seven		s eh v ah n
 eight		ey t
 nine		n ay n
 ten		t eh n
+eleven		ih l eh v ah n
 twelve		t w eh l v
 
