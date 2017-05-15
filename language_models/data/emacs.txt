@@ -1,0 +1,1 @@
+Emacs /ˈiːmæks/ and its derivatives are a family of text editors that are characterized by their extensibility.[2] The manual for the most widely used variant, GNU Emacs, describes it as "the extensible, customizable, self-documenting, real-time display editor".[3] Development of the first Emacs began in the mid-1970s and continues actively as of 2017.
