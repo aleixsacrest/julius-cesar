@@ -1,20 +1,31 @@
 0	[<s>]	sil
 1	[</s>]	sil
-2	[open]	ow p eh n
-2	[top]	t ow p
-2	[obrela]	ah b r eh l ah
-3	[page]	p ey sh
-3	[emacs]	iy m ah k s
-4	[dictat]	d iy k t ah t
-5	[final]	f ay n ah l
-6	[one]	w ah n
-6	[two]	t uw
-6	[three]	th r iy
-6	[four]	f ao r
-6	[five]	f ay v
-6	[six]	s ih k s
-6	[seven]	s eh v ah n
-6	[eight]	ey t
-6	[nine]	n ay n
-6	[ten]	t eh n
-6	[twelve]	t w eh l v
+2	[top]	t aa p
+2	[matrix]	m ey t r ih k s
+3	[open]	ow p eh n
+4	[newspaper]	n uw z p ey p er
+4	[emacs]	iy m ah k s
+4	[terminal]	t er m ah n ah l
+5	[file]	f ay l
+6	[system]	s ih s t ah m
+7	[factor]	f ae k t er
+8	[make]	m ey k
+8	[remove]	r iy m uw v
+9	[directory]	d er eh k t er iy
+10	[raise]	r ey z
+10	[lower]	l ow er
+11	[volume]	v aa l y uw m
+12	[dictate]	d ih k t ey t
+13	[final]	f ay n ah l
+14	[one]	w ah n
+14	[two]	t uw
+14	[three]	th r iy
+14	[four]	f ao r
+14	[five]	f ay v
+14	[six]	s ih k s
+14	[seven]	s eh v ah n
+14	[eight]	ey t
+14	[nine]	n ay n
+14	[ten]	t eh n
+14	[eleven]	ih l eh v ah n
+14	[twelve]	t w eh l v
