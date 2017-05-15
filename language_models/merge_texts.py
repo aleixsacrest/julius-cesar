@@ -3,11 +3,14 @@ import os
 os.system('ls -1 data > datainputtexts')
 
 f = open('datainputtexts', 'r')
-fo = open('input_language-model_text.txt', 'rw')
+fo = open('input/input_lm', 'w')
 
 for file in f.read().split('\n'):
     if len(file) > 0:
-        text = open(file, 'r').read()
+        text = open('data/' + file, 'r').read()
         fo.write(text + '\n')
 
-        
+f.close()
+fo.close()
+
+os.system('rm datainputtexts')
