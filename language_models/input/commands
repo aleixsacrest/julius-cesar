@@ -1,0 +1,10 @@
+open emacs
+open newspaper
+open terminal
+open file system
+make directory
+remove directory
+matrix
+top
+raise volume
+lower volume

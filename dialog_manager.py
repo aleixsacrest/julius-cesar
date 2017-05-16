@@ -26,12 +26,14 @@ for i in range(1,len(sys.argv)):
     elif 'factor' in sys.argv[i]:
         os.system('factor ' + str(num[sys.argv[i].split('factor ')[i].split(' ')[0]]))
     elif 'volume' in sys.argv[i]:
-        c = 'amixer -D pulse sset Master 5%'
+        s = ''
         if 'raise' in sys.argv[i]:
-            c += '+'
+            s += '+'
         elif 'lower' in sys.argv[i]:
-            c += '-'
-        os.system(c)
+            s += '-'
+        if s != '':
+            c = 'amixer -D pulse sset Master 5%' + s
+            os.system(c)
     elif 'dictate' in sys.argv[i]:
         text = sys.argv[1].split('dictate ')[1].split(' final')[0]
         os.system('echo ' + text + ' > dictat.txt')
