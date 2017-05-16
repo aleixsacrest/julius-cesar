@@ -413,14 +413,10 @@
 # !!!!!! 
 
 # VoxForge configurations:
--dfa grammar/commands/commands.dfa
--v grammar/commands/commands.dict
-#-d language_models/corpus.bin
-<<<<<<< HEAD
-#-v language_models/input/commands.dict
-=======
-#-v language_models/input/emacstxt.dict
->>>>>>> 60c2c9e65625dfa29c2e350985f0a2cf37fb7d0c
+# -dfa grammar/commands/commands.dfa
+# -v grammar/commands/commands.dict
+-d language_models/corpus.bin
+-v language_models/input/commands.dict
 -h HTK_AcousticModel-2017-05-03_16kHz_16bit_MFCC_O_D/hmmdefs
 -hlist HTK_AcousticModel-2017-05-03_16kHz_16bit_MFCC_O_D/tiedlist
 -spmodel "sp"		# HMM model name
