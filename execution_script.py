@@ -57,7 +57,7 @@ def computeWER():
                 speakers_WER[s] = {'wcount':0,'wersum':0}
             
             speakers_WER[s]['wcount'] += len(vref[i].split(' '))
-            wcount += len(vref[i].split(' '))
+            wcount += len(command.split(' '))
             
             hyp_parsed = vhyp[i].replace('<s> ', '').replace(' </s>', '')
             print hyp_parsed, '|', vref[i]
@@ -70,7 +70,7 @@ def computeWER():
             f.write(command + ' | ' + hyp_parsed + ' || ' + s + '\n')
             f.close()
 
-            ws = wer(vref[i].split(), hyp_parsed.split())
+            ws = wer(command.split(), hyp_parsed.split())
             wersum += ws
             speakers_WER[s]['wersum'] += ws
 
