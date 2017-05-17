@@ -2,32 +2,38 @@ ref | hyp
 
 dictate one two three final | dictate one two three final || albert
 dictate one two three final | dictate one two three final || albert
-make directory | make directory || albert
-make directory | make directory || albert
-open emacs | open emacs || albert
-open emacs | open emacs || albert
-open terminal | open terminal || albert
-open terminal | open terminal || albert
+make directory | matrix || albert
+make directory | matrix || albert
+open emacs | make directory || albert
+open emacs | make directory || albert
+open terminal | open emacs || albert
+open terminal | open emacs || albert
+top | open terminal || albert
+top | open terminal || albert
 raise volume | raise volume || albert
 raise volume | raise volume || albert
 dictate one two three final | dictate one two three final || aleix
 dictate one two three final | dictate one two three final || aleix
-make directory | open emacs || aleix
-make directory | open emacs || aleix
-open emacs | open terminal || aleix
-open emacs | open terminal || aleix
-open terminal | top || aleix
-open terminal | top || aleix
+make directory | make directory || aleix
+make directory | remove directory || aleix
+open emacs | open emacs || aleix
+open emacs | open emacs || aleix
+open terminal | open terminal || aleix
+open terminal | open terminal || aleix
+top | top || aleix
+top | top || aleix
 raise volume | raise volume || aleix
 raise volume | raise volume || aleix
 dictate one two three final | dictate one two three final || quim
 dictate one two three final | dictate one two three final || quim
-make directory | open emacs || quim
-make directory | open emacs || quim
-open emacs | open terminal || quim
-open emacs | open terminal || quim
-open terminal | top || quim
-open terminal | top || quim
+make directory | make directory || quim
+make directory | make directory || quim
+open emacs | open emacs || quim
+open emacs | open emacs || quim
+open terminal | open terminal || quim
+open terminal | open terminal || quim
+top | top || quim
+top | top || quim
 raise volume | raise volume || quim
 raise volume | raise volume || quim
 dictate five five five final | dictate five five five final || aleix
@@ -68,4 +74,4 @@ lower volume | lower volume || quim
 lower volume | lower volume || quim
 
 
-wer-sum: 80 wcount: 168 Acc: 52.380952381%
+wer-sum: 85 wcount: 174 Acc: 51.1494252874%
