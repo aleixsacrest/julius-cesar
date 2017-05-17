@@ -60,7 +60,7 @@ def computeWER():
             wcount += len(vref[i].split(' '))
             
             hyp_parsed = vhyp[i].replace('<s> ', '').replace(' </s>', '')
-            print vref[i], '|', hyp_parsed
+            print hyp_parsed, '|', vref[i]
             
             f = open('utterances/performance/' + s + '.res', 'a')
             f.write(command + ' | ' + hyp_parsed + '\n')

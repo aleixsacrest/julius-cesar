@@ -2,12 +2,14 @@ ref | hyp
 
 dictate one two three final | dictate one two three final
 dictate one two three final | dictate one two three final
-make directory | open emacs
-make directory | open emacs
-open emacs | open terminal
-open emacs | open terminal
-open terminal | top
-open terminal | top
+make directory | make directory
+make directory | make directory
+open emacs | open emacs
+open emacs | open emacs
+open terminal | open terminal
+open terminal | open terminal
+top | top
+top | top
 raise volume | raise volume
 raise volume | raise volume
 dictate five five five final | dictate seven ten final
@@ -24,4 +26,4 @@ lower volume | lower volume
 lower volume | lower volume
 
 
-wer-sum: 32 wcount: 56 Acc: 42.8571428571%
+wer-sum: 30 wcount: 58 Acc: 48.275862069%
