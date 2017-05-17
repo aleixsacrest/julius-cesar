@@ -25,15 +25,16 @@ def executeJuliusFor(student):
             i = 0
             for file in files:
                 if len(file) > 0:
-                    if os.path.exists('references'):
-                        append_write = 'a' # append if already exists
-                    else:
-                        append_write = 'w' # make a new file if not
-                    f = open('references', append_write)
-                    f.write(utt[student][int(i/2)] + '\n')
-                    f.close()
+                    if student != 'A' or int(i/2) != 1:
+                        if os.path.exists('references'):
+                            append_write = 'a' # append if already exists
+                        else:
+                            append_write = 'w' # make a new file if not
+                        f = open('references', append_write)
+                        f.write(utt[student][int(i/2)] + '\n')
+                        f.close()
+                        os.system('./julius -input stdin -C Sample.jconf -plugindir plugin < utterances/' + student + '/' + s + '/' + file)
                     i += 1
-                    os.system('./julius -input stdin -C Sample.jconf -plugindir plugin < utterances/' + student + '/' + s + '/' + file)
 
 def computeWER():
     print '\n\nref | hyp\n\n'
