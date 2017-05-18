@@ -12,8 +12,8 @@ top | top
 top | top
 raise volume | raise volume
 raise volume | raise volume
-dictate five five five final | dictate seven ten final
-dictate five five five final | dictate seven ten final
+dictate five five five final | dictate five five five final
+dictate five five five final | dictate five seven final
 matrix | matrix
 matrix | matrix
 open file system | open file system
@@ -26,4 +26,4 @@ lower volume | lower volume
 lower volume | lower volume
 
 
-wer-sum: 6 wcount: 58 Acc: 89.6551724138%
+wer-sum: 2 wcount: 58 Acc: 96.5517241379%

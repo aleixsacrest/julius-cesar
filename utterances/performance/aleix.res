@@ -1,7 +1,7 @@
 ref | hyp
 
-dictate one two three final | open newspaper
-dictate one two three final | open newspaper
+dictate one two three final | dictate one two three final
+dictate one two three final | dictate one two three final
 make directory | make directory
 make directory | remove directory
 open emacs | open emacs
@@ -12,8 +12,8 @@ top | top
 top | top
 raise volume | raise volume
 raise volume | raise volume
-dictate five five five final | make directory
-dictate five five five final | open newspaper
+dictate five five five final | dictate five five five final
+dictate five five five final | dictate five five five final
 matrix | matrix
 matrix | matrix
 open file system | open file system
@@ -26,4 +26,4 @@ lower volume | lower volume
 lower volume | lower volume
 
 
-wer-sum: 21 wcount: 58 Acc: 63.7931034483%
+wer-sum: 1 wcount: 58 Acc: 98.275862069%

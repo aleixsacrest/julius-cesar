@@ -1,7 +1,7 @@
 ref | hyp
 
-dictate five five five final | make directory
-dictate five five five final | open newspaper
+dictate five five five final | dictate five five five final
+dictate five five five final | dictate five five five final
 matrix | matrix
 matrix | matrix
 open file system | open file system
@@ -14,4 +14,4 @@ lower volume | lower volume
 lower volume | lower volume
 
 
-wer-sum: 10 wcount: 30 Acc: 66.6666666667%
+wer-sum: 0 wcount: 30 Acc: 100.0%
