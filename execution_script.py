@@ -5,6 +5,8 @@ from WER_computation import *
 
 utt = {'A' : ['dictate one two three final', 'make directory', 'open emacs', 'open terminal', 'top', 'raise volume'], 'B' : ['dictate five five five final', 'matrix', 'open file system', 'open newspaper', 'remove directory', 'lower volume']}
 
+stats_utt = {'open file system': {'wcount': 0, 'wersum': 0}, 'dictate five five five final': {'wcount': 0, 'wersum': 0}, 'matrix': {'wcount': 0, 'wersum': 0}, 'make directory': {'wcount': 0, 'wersum': 0}, 'top': {'wcount': 0, 'wersum': 0}, 'dictate one two three final': {'wcount': 0, 'wersum': 0}, 'open terminal': {'wcount': 0, 'wersum': 0}, 'open emacs': {'wcount': 0, 'wersum': 0}, 'open newspaper': {'wcount': 0, 'wersum': 0}, 'remove directory': {'wcount': 0, 'wersum': 0}, 'raise volume': {'wcount': 0, 'wersum': 0}, 'lower volume': {'wcount': 0, 'wersum': 0}}
+
 def executeJuliusFor(student):
     os.system('ls -1 utterances/' + student + ' > speakers')
     
@@ -56,8 +58,9 @@ def computeWER():
             if not s in speakers_WER.keys():
                 speakers_WER[s] = {'wcount':0,'wersum':0}
             
-            speakers_WER[s]['wcount'] += len(vref[i].split(' '))
+            speakers_WER[s]['wcount'] += len(command.split(' '))
             wcount += len(command.split(' '))
+            stats_utt[command]['wcount'] += len(command.split(' '))
             
             hyp_parsed = vhyp[i].replace('<s> ', '').replace(' </s>', '')
             print hyp_parsed, '|', vref[i]
@@ -73,6 +76,7 @@ def computeWER():
             ws = wer(command.split(), hyp_parsed.split())
             wersum += ws
             speakers_WER[s]['wersum'] += ws
+            stats_utt[command]['wersum'] += ws
 
     for k in speakers_WER.keys():
         f = open('utterances/performance/' + k + '.res', 'a')
@@ -81,6 +85,11 @@ def computeWER():
 
         f.write('\n\nwer-sum: ' + str(speakers_WER[k]['wersum']) + ' wcount: ' + str(speakers_WER[k]['wcount']) + ' Acc: ' + str(_A) + '%')
         f.close()
+
+    f = open('utterances/performance/tot_command.res', 'a')
+    for k in stats_utt.keys():
+        f.write(k + ';' + str(100.0 - 100.0 * (float(stats_utt[k]['wersum']) / float(stats_utt[k]['wcount']))) + '\n')
+    f.close()
 
     return wersum, wcount
 
@@ -93,6 +102,7 @@ os.system('rm references')
 os.system('rm -r utterances/performance')
 os.system('mkdir utterances/performance')
 os.system('echo \'ref | hyp\\n\' > utterances/performance/tot.res')
+os.system('echo \'command;accuracy\\n\' > utterances/performance/tot_command.res')
 
 executeJuliusFor('A')
 executeJuliusFor('B')

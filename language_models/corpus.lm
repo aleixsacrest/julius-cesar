@@ -1,50 +1,65 @@
 
 \data\
-ngram 1=16
-ngram 2=24
+ngram 1=22
+ngram 2=33
 
 \1-grams:
--0.462398	</s>
--99	<s>	-99
--1.161368	directory	-99
--1.462398	emacs	-99
--1.462398	file	-99
--1.462398	lower	-99
--1.462398	make	-99
--1.462398	matrix	-99
--1.462398	newspaper	-99
--0.860338	open	-99
--1.462398	raise	-99
--1.462398	remove	-99
--1.462398	system	-99
--1.462398	terminal	-99
--1.462398	top	-99
--1.161368	volume	-99
+-0.5336026	</s>
+-99	<s>	-0.281923
+-1.311754	dictate	-0.08669677
+-1.311754	directory	-0.3267354
+-1.612784	emacs	0.01910695
+-1.612784	file	-0.1205551
+-1.311754	final	-0.3267354
+-1.135663	five	-0.5519189
+-1.612784	lower	-0.1095597
+-1.612784	make	-0.1095597
+-1.612784	matrix	0.01910695
+-1.612784	newspaper	0.01910695
+-1.612784	one	-0.1205551
+-1.010724	open	-0.0866968
+-1.612784	raise	-0.1095597
+-1.612784	remove	-0.1095597
+-1.612784	system	0.01910695
+-1.612784	terminal	0.01910695
+-1.612784	three	-0.1095597
+-1.612784	top	0.01910695
+-1.612784	two	-0.1205551
+-1.311754	volume	-0.3267354
 
 \2-grams:
--1	<s> lower
--1	<s> make
--1	<s> matrix
--0.39794	<s> open
--1	<s> raise
--1	<s> remove
--1	<s> top
-0	directory </s>
-0	emacs </s>
-0	file system
-0	lower volume
-0	make directory
-0	matrix </s>
-0	newspaper </s>
--0.60206	open emacs
--0.60206	open file
--0.60206	open newspaper
--0.60206	open terminal
-0	raise volume
-0	remove directory
-0	system </s>
-0	terminal </s>
-0	top </s>
-0	volume </s>
+-0.7781513	<s> dictate
+-1.662758	<s> lower
+-1.662758	<s> make
+-1.662758	<s> matrix
+-0.4771213	<s> open
+-1.662758	<s> raise
+-1.662758	<s> remove
+-1.662758	<s> top
+-0.8846066	dictate five
+-0.8846066	dictate one
+-0.1760913	directory </s>
+-0.5835766	emacs </s>
+-0.5835766	file system
+-0.1760913	final </s>
+-1.060698	five final
+-0.1760913	five five
+-0.5835766	lower volume
+-0.5835766	make directory
+-0.5835766	matrix </s>
+-0.5835766	newspaper </s>
+-0.5835766	one two
+-1.185637	open emacs
+-1.185637	open file
+-1.185637	open newspaper
+-1.185637	open terminal
+-0.5835766	raise volume
+-0.5835766	remove directory
+-0.5835766	system </s>
+-0.5835766	terminal </s>
+-0.5835766	three final
+-0.5835766	top </s>
+-0.5835766	two three
+-0.1760913	volume </s>
 
 \end\

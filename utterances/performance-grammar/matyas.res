@@ -4,14 +4,14 @@ dictate five five five final | dictate five five five final
 dictate five five five final | dictate five five five final
 matrix | matrix
 matrix | matrix
-open file system | open five system
-open file system | open five system
+open file system | open file system
+open file system | open file system
 open newspaper | open newspaper
 open newspaper | open newspaper
-remove directory | newspaper
 remove directory | remove directory
-lower volume | open volume
+remove directory | remove directory
+lower volume | lower volume
 lower volume | lower volume
 
 
-wer-sum: 5 wcount: 30 Acc: 83.3333333333%
+wer-sum: 0 wcount: 30 Acc: 100.0%
